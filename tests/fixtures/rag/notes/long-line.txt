@@ -1,0 +1,1 @@
+This is a deliberately long line used to verify deterministic hard-window chunking and advancing offsets. It contains deployment and retention terms several times so retrieval can inspect multiple chunks without relying on line boundaries.

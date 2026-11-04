@@ -1,0 +1,1 @@
+CAFÉ and café are Unicode case variants.

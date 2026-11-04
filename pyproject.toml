@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ragpocket"
+version = "0.1.0"
+description = "Deterministic local folder search with BM25 and citations"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "RAGPocket contributors"}]
+dependencies = []
+
+[project.scripts]
+ragpocket = "ragpocket.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

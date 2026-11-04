@@ -1,0 +1,5 @@
+{
+  "docs/guide.md": {"project": "alpha", "visibility": "public"},
+  "docs/retention.md": {"project": "beta", "visibility": "public"},
+  "src/example.py": {"project": "alpha", "visibility": "public"}
+}
