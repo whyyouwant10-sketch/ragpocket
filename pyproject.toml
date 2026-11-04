@@ -16,3 +16,8 @@ ragpocket = "ragpocket.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+markers = [
+    "plugin: exercises the optional embedding-provider boundary",
+]
